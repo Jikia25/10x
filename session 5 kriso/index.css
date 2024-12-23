@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1, h2 {
+    font-size: 100%;
+    font-weight: 400;
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+h1 {
+    color: blue;
+    font-size: 40px;
+    text-align: center;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-style: 20px;
+    color: darkgreen;
+}
+p {
+    line-height: 1.5;
+    font-style: 16px;
+}
+.project1, .project2, .project3 {
+    padding: 20px;
+    margin: 100px;
+    border: 200px solid red; 
+}
+.project1 {
+    background-color: aqua;
+}
+.project2 {
+    background-color: blue;
+}
+.project3 {
+    background-color: blueviolet
+}
+#about-me {
+    background-color: lightgrey;
+}
+#skills {
+    background-color: light yellow;
+}
+li {
+    list-style: nones;
+    background-color: darkred;
+}
+ #projects > h3 {
+    background-color: aqua;
+}
+img[src] {
+    border: 2px solid black;
+    border-radius: 50%;
+}
+img {
+    width: 50%;
+    height: auto;
+}
+li::before {
+    content: "\2605";
+}
+
+a {
+    color: orange ;
+}
+a:hover {
+    text-decoration: underline;
+  }
+  
