@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+.flex {
+    display: flex;
+    justify-content: space-around;
+}
+.box {
+    background-color: brown;
+    height: 100px;
+    width: 100px;
+}
+.box.circle {
+    border-radius: 50%;
+}
+.flex-familly {
+    display: flex;
+    gap: 20px;
+    padding: 10px 20px;
+
+}
+.child {
+    background-color: blue;
+    width: 50%;
+    height: 150px;
+    border-radius: 50%;
+}
+.child.green {
+    background-color: green;
+}
+.footer {
+    /* width: 80%; */
+    height: 200px;
+    background-color: blueviolet;
+    margin: 20px;
+}
+.footer img {
+    /* width: 50%; */
+height: 100%;
+}
