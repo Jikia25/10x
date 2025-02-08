@@ -1,0 +1,12 @@
+@media (max-width: 1023px) {
+    header nav ul {
+        display: none;
+    }
+    .header-buttons {
+        display: none;
+    }
+    .burger-wrapper {
+        display: flex;
+    }
+} 
+

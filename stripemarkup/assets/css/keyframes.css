@@ -1,0 +1,32 @@
+@keyframes mymove {
+    5% {
+        filter: blur(5deg);
+    }
+    10% {
+        filter: blur(10deg);
+    }
+    20% {
+        filter: blur(15deg);
+    }
+    25% {
+        filter: blur(20deg);
+    }
+    30% {
+        filter: blur(25deg);
+    }
+    35% {
+        filter: blur(25deg);
+    }
+    40% {
+        filter: blur(25deg);
+    } 
+    45% {
+        filter: blur(25deg);
+    }
+    50% {
+        filter: blur(25deg);
+    }
+    100% {
+        filter: blur(25deg);
+    }
+}
